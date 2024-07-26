@@ -1,0 +1,20 @@
+.popup{
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    width: 24rem;
+    height: auto;
+    z-index: 9999;
+    background-color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 5px;
+
+}
+
+.btn{
+    display: flex;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    z-index: 9999;
+}
