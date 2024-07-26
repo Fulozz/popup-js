@@ -8,5 +8,5 @@ function closePopup() {
   var popup = document.getElementById("popup");
   var body = document.getElementById("body");
   popup.style.display = "none";
-  body.style.backgroundColor = "rgba(255, 255, 255)";
+  body.style.removeProperty("background-color");
 }
